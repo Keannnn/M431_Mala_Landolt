@@ -1,6 +1,6 @@
 # M431 Projektdokumentation
 ## Geführt von Kean Mala und Joris Landolt
-### I (Informieen
+### I (Informieren)
 
 ### P (Planen)
 
