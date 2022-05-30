@@ -1,13 +1,15 @@
 # M431 Projektdokumentation
 ## Geführt von Kean Mala und Joris Landolt
-### I (Informieren)
+### Inhaltsverzeichnis
 
-### P (Planen)
+ - [I (Informieren)](/I_perka.MD)
 
-### E (Entscheiden)
+ - [P (Planen)](/i_P_erka.MD)
 
-### R (Realisieren)
+ - [E (Entscheiden)](/ip_E_rka.md)
 
-### K (Kontrollieren)
+ - [R (Realisieren)](/ipe_R_ka.md)
 
-### A (Auswerten)
+ - [K (Kontrollieren)](/iper_K_a.md)
+
+ - [A (Auswerten)](/iperk_A.MD)
