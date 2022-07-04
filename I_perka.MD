@@ -1,3 +1,5 @@
+
+
 # I (Informieren)
 ## Ideensammlung
  - Zuerst haben wir uns überlegt, was wir nun machen möchten. Wir haben uns auf zwei Projekte begrenzt. Eine Webseite selber aufsetzen und hosten oder einen Rasberry-Pi als VPN Server aufsetzen. Schlussentlich haben wir uns für das Zweite entschieden.
