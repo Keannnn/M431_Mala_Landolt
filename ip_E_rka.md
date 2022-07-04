@@ -10,4 +10,10 @@
     Preis:                | 15% |   |   10   |  |    10    |
     Machbarkeit:          | 25% |   |    8   |  |     5    |
                                                       
-    Total:                | 100%|   |   26   |  |    30    |   
+    Total:                | 100%|   |   26   |  |    30    | 
+
+
+## Begründungen
+
+### Berufliche Zukunft:
+ - Wir haben uns dazu entschieden, dass der VPN-Server für unsere Berfuliche Zukunft relevanter ist, als eine Webseite. Dies kommt daher, da 
