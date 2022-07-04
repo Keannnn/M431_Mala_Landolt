@@ -1,6 +1,21 @@
 # R (Realisieren)
 
-[ToC]
+- [R (Realisieren)](#r-realisieren)
+  - [Betriebssystem auf SDK installiert.](#betriebssystem-auf-sdk-installiert)
+  - [Statische IP vergeben](#statische-ip-vergeben)
+  - [SSH Dienst installiert und konfiguriert](#ssh-dienst-installiert-und-konfiguriert)
+  - [SSH verbindung aufgebaut und getestet](#ssh-verbindung-aufgebaut-und-getestet)
+  - [Dyn-DNS Grundeinrichtung](#dyn-dns-grundeinrichtung)
+    - [Dyn-DNS Account erstellen](#dyn-dns-account-erstellen)
+    - [Gratis Subdomain](#gratis-subdomain)
+  - [Einrichtung DynDns](#einrichtung-dyndns)
+    - [sudo apt install ddclient](#sudo-apt-install-ddclient)
+    - [sudo nano /etc/ddclient/.conf](#sudo-nano-etcddclientconf)
+    - [sudo nano /etc/default/ddclient](#sudo-nano-etcdefaultddclient)
+    - [sudo systemctl restart ddclient](#sudo-systemctl-restart-ddclient)
+    - [sudo systemctl status client](#sudo-systemctl-status-client)
+    - [Subdomain überprüfen](#subdomain-überprüfen)
+  - [VPN Serverdienst installation (Wireguard)](#vpn-serverdienst-installation-wireguard)
 
 ## Betriebssystem auf SDK installiert.
 - Hardware: Raspberry Pi 3 Model B Rev 1.2
