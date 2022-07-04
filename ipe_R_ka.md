@@ -19,16 +19,56 @@
 <img src="./Dokumente/sshconnection.png"> 
 
 
-## Account erstellen DynDNS
- - freedns.afraid.org
+## Dyn-DNS Grundeinrichtung
+
+----
+
+### Dyn-DNS Account erstellen
 <img src="./Dokumente/freedns.png">
- - Gratis Subdomain
+
+----
+
+### Gratis Subdomain
+- http://freedns.afraid.org/subdomain/
 <img src="./Dokumente/subdomain.png">
+
+----
 
 
 ## Einrichtung DynDns
- - sudo apt install ddclient
+### sudo apt install ddclient
 <img src="./Dokumente/package.png">
+ - Enter drücken, bis das Programm sich schliesst.
+
+----
+
+### sudo nano /etc/ddclient/.conf
+<img src="./Dokumente/ddclient.png">
+ - Muss mit den Login-Daten des DynDNS übereinstimmen.
+
+----
+
+### sudo nano /etc/default/ddclient
+<img src="./Dokumente/daemon.png">
+ - Daemon Einstellungen übernehmen
+
+----
+
+### sudo systemctl restart ddclient
+### sudo systemctl status client
+<img src="./Dokumente/restart.png">
+ - Dyn-DNS Client neu starten und den Status anzeigen
+
+----
+
+### Subdomain überprüfen
+ - http://freedns.afraid.org/subdomain/
+
+
+<img src="./Dokumente/wanip.png">
+ - Subdomain wird nun WAN-IP anzeigen
+  
+----
 
 
 ## VPN Serverdienst installation (Wireguard)
