@@ -15,7 +15,17 @@
     - [sudo systemctl restart ddclient](#sudo-systemctl-restart-ddclient)
     - [sudo systemctl status client](#sudo-systemctl-status-client)
     - [Subdomain überprüfen](#subdomain-überprüfen)
-  - [VPN Serverdienst installation (Wireguard)](#vpn-serverdienst-installation-wireguard)
+  - [Portforwardings](#portforwardings)
+  - [VPN Serverdienst installation](#vpn-serverdienst-installation)
+    - [Wireguard installieren](#wireguard-installieren)
+  - [<img src="./Dokumente/wireguard1.png">](#)
+    - [Wireguard konfigurieren](#wireguard-konfigurieren)
+  - [<img src="./Dokumente/wireguard2.png">](#-1)
+  - [QR-Code für mobile Verbindungen](#qr-code-für-mobile-verbindungen)
+  - [.conf File extrahieren](#conf-file-extrahieren)
+    - [SFTP Verbindung mit SSH Programm aufbauen](#sftp-verbindung-mit-ssh-programm-aufbauen)
+  - [<img src="./Dokumente/sftp.png">](#-2)
+    - [Config File extrahieren](#config-file-extrahieren)
 
 ## Betriebssystem auf SDK installiert.
 - Hardware: Raspberry Pi 3 Model B Rev 1.2
@@ -88,7 +98,39 @@
   
 ----
 
+## Portforwardings
+ - Da wir keinen Zugriff auf den Heim-Router von Herr Landolt haben, hat der Freund seiner Mutter uns die Port-Forwardings eingerichet
+ - Port: 51820
+  
+  ----
 
-## VPN Serverdienst installation (Wireguard)
+## VPN Serverdienst installation
+### Wireguard installieren
  - wget https://git.io/wireguard -O wireguard-install.sh && sudo bash wireguard-install.sh
 <img src="./Dokumente/wireguard1.png">
+ ----
+
+### Wireguard konfigurieren
+ - sudo bash wireguard-install.sh
+<img src="./Dokumente/wireguard2.png">
+----
+
+## QR-Code für mobile Verbindungen
+<img src="./Dokumente/qrcode.jpg">
+
+ - Wird automatisch nach dem letzen Schritt angezeigt
+  
+
+----
+
+## .conf File extrahieren
+### SFTP Verbindung mit SSH Programm aufbauen
+<img src="./Dokumente/sftp.png">
+----
+
+### Config File extrahieren
+ - /root/ Verzeichnis
+<img src="./Dokumente/sftp2.png">
+
+----
+
