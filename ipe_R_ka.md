@@ -1,4 +1,5 @@
 # R (Realisieren)
+
 - [R (Realisieren)](#r-realisieren)
   - [Betriebssystem auf SDK installiert.](#betriebssystem-auf-sdk-installiert)
   - [Statische IP vergeben](#statische-ip-vergeben)
@@ -17,14 +18,12 @@
   - [Portforwardings](#portforwardings)
   - [VPN Serverdienst installation](#vpn-serverdienst-installation)
     - [Wireguard installieren](#wireguard-installieren)
-  - [<img src="./Dokumente/wireguard1.png">](#)
     - [Wireguard konfigurieren](#wireguard-konfigurieren)
-  - [<img src="./Dokumente/wireguard2.png">](#-1)
   - [QR-Code für mobile Verbindungen](#qr-code-für-mobile-verbindungen)
   - [.conf File extrahieren](#conf-file-extrahieren)
     - [SFTP Verbindung mit SSH Programm aufbauen](#sftp-verbindung-mit-ssh-programm-aufbauen)
-  - [<img src="./Dokumente/sftp.png">](#-2)
     - [Config File extrahieren](#config-file-extrahieren)
+
 
 
 ## Betriebssystem auf SDK installiert.
@@ -106,13 +105,15 @@
 
 ## VPN Serverdienst installation
 ### Wireguard installieren
- - wget https://git.io/wireguard -O wireguard-install.sh && sudo bash wireguard-install.sh
 <img src="./Dokumente/wireguard1.png">
+ - wget https://git.io/wireguard -O wireguard-install.sh && sudo bash wireguard-install.sh
+
  ----
 
 ### Wireguard konfigurieren
- - sudo bash wireguard-install.sh
 <img src="./Dokumente/wireguard2.png">
+ - sudo bash wireguard-install.sh
+
 ----
 
 ## QR-Code für mobile Verbindungen
@@ -125,13 +126,16 @@
 
 ## .conf File extrahieren
 ### SFTP Verbindung mit SSH Programm aufbauen
-
 <img src="./Dokumente/sftp.png">
+
+
+
 ----
 
 ### Config File extrahieren
- - /root/ Verzeichnis
 <img src="./Dokumente/sftp2.png">
+ - /root/ Verzeichnis
+
 
 ----
 
