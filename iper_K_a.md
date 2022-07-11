@@ -7,3 +7,5 @@
 |R =  Das Projekt ist auf jeden Fall machbar, man muss aber sicher ein bisschen Freizeit in das Projekt investieren.  | Ja  |
 |T = Geplant ist, dass das Projekt am 20.06.22 vollständig läuft. Das Projekt wird ca. drei Wochen in beanspruch nehmen, aber wir werden pünktlich fertig sein. | Ja |
 
+## Kontroll-Liste
+ - Durch das Dokumentieren, von dem Realisationsteil, haben wir direkt kontrolliert, ob der Raspberry mit all seinen Diensten noch läuft.
