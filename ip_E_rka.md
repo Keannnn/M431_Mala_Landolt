@@ -3,7 +3,7 @@
 ## Nutzwertanalyse
 ----
 
-<img src="./Dokumente/nutzwertanalyse.png">
+<img src="./Dokumente/Nutzwertanalyse.png">
 
 ----
 
